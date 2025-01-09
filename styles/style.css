@@ -1,0 +1,15 @@
+body{
+
+    font-family: "Open Sans", serif;
+}
+nav{
+    display: flex;
+}
+/*nav styles*/
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
