@@ -1,9 +1,17 @@
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
 body{
 
     font-family: "Open Sans", serif;
 }
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
 }
 /*nav styles*/
 .nav-title{
@@ -12,4 +20,28 @@ nav{
 }
 .text-primary{
     color: #FD6E0A;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul{
+    display: flex;
+     align-items: center;
+}
+.btn-1{
+    background: #FD6E0A;
+    font-weight: bold ;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.dark-2{
+    color: #474747;
+}
+/* banner style */
+.banner-header{
+    font-size: 45px;
+    font-weight: 600;
 }
