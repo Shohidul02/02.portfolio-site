@@ -2,6 +2,8 @@
 *{
     list-style: none;
     text-decoration: none;
+    margin: 0;
+    padding: 0   ;
 }
 body{
 
@@ -17,6 +19,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    margin-left: 75px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -27,6 +30,10 @@ nav ul li{
 nav ul{
     display: flex;
      align-items: center;
+}
+/* common css  */
+.bg-color{
+    background-color: #FFF8F3;
 }
 .btn-1{
     background: #FD6E0A;
@@ -40,7 +47,31 @@ nav ul{
 .dark-2{
     color: #474747;
 }
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color:#181818
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* banner immage */
+.header{
+    background-image: url('../images/developer.png'),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* banner style */
+.banner-content{
+    max-width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+}
 .banner-header{
     font-size: 45px;
     font-weight: 600;
