@@ -22,7 +22,7 @@ nav{
     margin-left: 75px;
 }
 .text-primary{
-    color: #FFF8F3;
+    color: #e77829;
 }
 nav ul li{
     margin: 10px;
@@ -89,7 +89,7 @@ main{
 /* about section */
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 50px 150px;
     text-align: center;
     margin-top: 130px;
     margin-bottom: 130px;
@@ -178,8 +178,14 @@ footer{
 .social-icon{
     padding-right: 10px;
 }
-.forms-box{
-    height: 64px;
-    display: block;   
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
     border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    background-color: #fdfdfd;
+    margin:5px 0px;
 }
