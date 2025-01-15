@@ -70,11 +70,13 @@ margin-bottom: 20px;
 /* banner style */
 .banner-content{
     max-width: 580px;
+    
 }
 .banner{
     display: flex;
     justify-content: space-between;
     margin: 0px 35px 0px 230px;
+    height: 80vh;
 }
 .banner-header{
     font-size: 45px;
